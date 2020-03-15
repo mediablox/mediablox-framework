@@ -1,0 +1,22 @@
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+
+/**
+ * Page-level constraining and wrapping elements.
+ */
+
+$mbfw-wrapper-width: 1200px !default;
+
+@if (type-of($mbfw-wrapper-width) != number) {
+  @error "`#{$mbfw-wrapper-width}` needs to be a number.";
+}
+
+.o-wrapper {
+  @include inuit-clearfix();
+  padding-right: $mbfw-global-spacing-unit;
+  padding-left:  $mbfw-global-spacing-unit;
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: $mbfw-wrapper-width;
+}
