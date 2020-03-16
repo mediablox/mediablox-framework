@@ -1,7 +1,6 @@
-example.html
 *.css
+*.css.map
 *.gz
 node_modules/
-bower_components/
 test/*.css
-.sass-cache
+sassdoc/
