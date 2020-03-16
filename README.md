@@ -3,11 +3,14 @@
 **An extensible, scalable, Sass-based, OOCSS framework for large and long-lasting
 UI projects.**
 
-Based on inuitcss by Harry Roberts
+The mediablox frame is based on inuitcss by Harry Roberts.
 
 inuitcss is a framework in its truest sense: it does not provide you with UI and
 design out of the box, instead, it provides you with a solid architectural
 baseline upon which to complete your own work.
+
+Mediablox has taken inuitcss as a starting point for the framework, and extended
+it to suit the needs of the project.
 
 ## Installation
 
@@ -18,6 +21,12 @@ You can use the mediblox framework (mbfw) in your project by installing it using
 
 ```
 $ npm install mbfw --save
+```
+
+**Cloning git repository:**
+
+```
+$ git clone https://github.com/mediablox/mediablox-framework.git
 ```
 
 **Copy/paste (not recommended):**
