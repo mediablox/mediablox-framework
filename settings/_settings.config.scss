@@ -13,12 +13,12 @@ $mbfw-config: (
 
 // You can access data in this map using the following function:
 //
-// inuit-config(<key>)
+// mbfw-config(<key>)
 //
 // Example usage:
 //
-// @if (inuit-config(debug) == true) { ...  }
+// @if (mbfw-config(debug) == true) { ...  }
 
-@function inuit-config($key) {
+@function mbfw-config($key) {
   @return map-get($mbfw-config, $key);
 }

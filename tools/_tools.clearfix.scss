@@ -6,10 +6,10 @@
 // http://www.cssmojo.com/the-very-latest-clearfix-reloaded/
 //
 // .usage {
-//   @include inuit-clearfix();
+//   @include mbfw-clearfix();
 // }
 
-@mixin inuit-clearfix() {
+@mixin mbfw-clearfix() {
 
   &:after {
     content: "" !important;

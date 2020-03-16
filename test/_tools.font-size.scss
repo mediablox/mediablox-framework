@@ -4,14 +4,14 @@
 
 
 
-@include test-module("[mixin] inuit-font-size") {
+@include test-module("[mixin] mbfw-font-size") {
 
   @include test("it should output a font-size and line-height based on a given input") {
 
     @include assert() {
 
       @include output {
-        @include inuit-font-size(16px);
+        @include mbfw-font-size(16px);
       }
 
       @include expect {
@@ -27,7 +27,7 @@
     @include assert() {
 
       @include output {
-        @include inuit-font-size(18px, 2);
+        @include mbfw-font-size(18px, 2);
       }
 
       @include expect {
@@ -43,7 +43,7 @@
     @include assert() {
 
       @include output {
-        @include inuit-font-size(21px, $important: true);
+        @include mbfw-font-size(21px, $important: true);
       }
 
       @include expect {
@@ -59,7 +59,7 @@
     @include assert() {
 
       @include output {
-        @include inuit-font-size(24px, $modifier: +2);
+        @include mbfw-font-size(24px, $modifier: +2);
       }
 
       @include expect {
@@ -75,7 +75,7 @@
     @include assert() {
 
       @include output {
-        @include inuit-font-size(32px, $modifier: -1);
+        @include mbfw-font-size(32px, $modifier: -1);
       }
 
       @include expect {

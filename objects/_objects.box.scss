@@ -10,7 +10,7 @@
  */
 
 .o-box {
-  @include inuit-clearfix();
+  @include mbfw-clearfix();
   display: block; /* [1] */
   padding: $mbfw-global-spacing-unit;
 

@@ -13,7 +13,7 @@ $mbfw-wrapper-width: 1200px !default;
 }
 
 .o-wrapper {
-  @include inuit-clearfix();
+  @include mbfw-clearfix();
   padding-right: $mbfw-global-spacing-unit;
   padding-left:  $mbfw-global-spacing-unit;
   margin-right: auto;

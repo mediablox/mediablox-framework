@@ -9,7 +9,7 @@
  */
 
 // We have all of our heading font sizes defined here. Passing these pixel
-// values into our `inuit-font-size()` mixin will generate a rem-based
+// values into our `mbfw-font-size()` mixin will generate a rem-based
 // `font-size` with a pixel fallback, as well as generating a `line-height` that
 // will sit on our baseline grid.
 
@@ -21,25 +21,25 @@ $mbfw-font-size-h5:  18px !default;
 $mbfw-font-size-h6:  16px !default;
 
 h1 {
-  @include inuit-font-size($mbfw-font-size-h1);
+  @include mbfw-font-size($mbfw-font-size-h1);
 }
 
 h2 {
-  @include inuit-font-size($mbfw-font-size-h2);
+  @include mbfw-font-size($mbfw-font-size-h2);
 }
 
 h3 {
-  @include inuit-font-size($mbfw-font-size-h3);
+  @include mbfw-font-size($mbfw-font-size-h3);
 }
 
 h4 {
-  @include inuit-font-size($mbfw-font-size-h4);
+  @include mbfw-font-size($mbfw-font-size-h4);
 }
 
 h5 {
-  @include inuit-font-size($mbfw-font-size-h5);
+  @include mbfw-font-size($mbfw-font-size-h5);
 }
 
 h6 {
-  @include inuit-font-size($mbfw-font-size-h6);
+  @include mbfw-font-size($mbfw-font-size-h6);
 }

@@ -5,11 +5,11 @@
 // Generates a rem font-size (with pixel fallback) and a baseline-compatible
 // unitless line-height from a pixel font-size value. Basic usage is simply:
 //
-//   @include inuit-font-size(18px);
+//   @include mbfw-font-size(18px);
 //
 // You can force a specific line-height by passing it as the second argument:
 //
-//   @include inuit-font-size(16px, 1);
+//   @include mbfw-font-size(16px, 1);
 //
 // You can also modify the line-height by increments, while staying in the
 // baseline grid, by setting the `$modifier` parameter. It takes a positive
@@ -18,12 +18,12 @@
 // an absolute value. i.e.:
 //
 //   // add 2 lines:
-//   @include inuit-font-size(24px, $modifier: +2);
+//   @include mbfw-font-size(24px, $modifier: +2);
 //
 //   // subtract 1 line:
-//   @include inuit-font-size(24px, $modifier: -1);
+//   @include mbfw-font-size(24px, $modifier: -1);
 
-@mixin inuit-font-size($font-size, $line-height: auto, $modifier: 0, $important: false) {
+@mixin mbfw-font-size($font-size, $line-height: auto, $modifier: 0, $important: false) {
 
   @if (type-of($font-size) == number) {
     @if (unit($font-size) != "px") {

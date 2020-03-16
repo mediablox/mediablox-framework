@@ -1,17 +1,11 @@
 /* ==========================================================================
-   INUITCSS
+   Mediablox Framework (MBFW)
    ========================================================================== */
 
 /**
- * inuitcss, by @csswizardry
+ * mediablox-framework, by Mediablox
  *
- * github.com/inuitcss | inuitcss.com
- */
-
-/**
- * This is an example inuitcss manifest file. DO NOT MODIFY THIS FILE DIRECTLY.
- * Instead, copy and paste it into your own CSS directory and make additions,
- * extensions, and modifications there.
+ * github.com/mediablox/mediablox-framework | mediablox.co.uk
  */
 
 /**
@@ -19,14 +13,14 @@
  *
  * SETTINGS
  * Config...............Project-level configuration and feature switches.
- * Core.................inuitcss’ core and setup settings.
+ * Core.................mediablox-frameworks core and setup settings.
  * Global...............Project-wide variables and settings.
  *
  * TOOLS
  * Font-size............A mixin which guarantees baseline-friendly line-heights.
  * Clearfix.............Micro clearfix mixin.
  * Hidden...............Mixin for hiding elements.
- * Sass MQ..............inuitcss’ default media query manager.
+ * Sass MQ..............mediablox-frameworks default media query manager.
  *
  * GENERIC
  * Box-sizing...........Better default `box-sizing`.
@@ -60,7 +54,7 @@
  *
  * COMPONENTS
  * Buttons..............An example button component, and how it fits into the
- *                      inuitcss framework.
+ *                      mediablox-framework.
  *
  * UTILITIES
  * Clearfix.............Bind our clearfix onto a utility class.
@@ -75,9 +69,9 @@
  */
 
 // SETTINGS
-@import "settings/example.settings.config";
+@import "settings/settings.config";
 @import "settings/settings.core";
-@import "settings/example.settings.global";
+@import "settings/settings.global";
 
 // TOOLS
 @import "tools/tools.font-size";
