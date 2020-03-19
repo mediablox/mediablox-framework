@@ -1,0 +1,15 @@
+{
+  "source": "./",
+  "destination": "docs",
+  "ignore": [
+    "node_modules",
+    "!**/*.md"
+  ],
+  "plugins": {
+    "metalsmith-markdown": true,
+    "metalsmith-layouts": {
+      "default": "layout.njk",
+      "directory": ".build/templates"
+    }
+  }
+}
