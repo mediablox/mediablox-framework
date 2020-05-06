@@ -18,3 +18,11 @@ gulp.task('scss', function(done) {
 		.pipe(gulp.dest('./'));
 	done();
 });
+
+
+gulp.task('docs', function(done) {
+	gulp.src(['./**/*.md', '!./docs/**/*.md', '!./node_modules/**/*.md'])
+		.pipe(gulp.dest('./docs'));
+	done();
+});
+
